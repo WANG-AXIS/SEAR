@@ -20,3 +20,5 @@ Two types of images are contained in each file:
 -Simulated monochromatic attenuation (80keV) images (denoted as 'mu'), which were used for the attenuation reconstruction target..
 
 For reconstruction results, 'alpha' image files contain 5 different reconstruction estimations based on different detected scatter energies (see manuscript for details). All simulated images are stored as .mat files.
+
+Note: medical/reconstruction/mu_train is split into two files to decrease maximum file size.
